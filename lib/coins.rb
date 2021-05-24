@@ -2,7 +2,7 @@ require 'net/http'
 require 'json'
 
 class Coins
-    def setRate base
+    def self.setRate base
         begin
             @exchange = JSON.parse Net::HTTP.get(URI 'http://api.fixer.io/latest?base=' + base)
         rescue
@@ -11,7 +11,7 @@ class Coins
         end
     end
 
-    def help
+    def self.help
         help = 
         "In Ruby, there's a quick live terminal currency exchange rate converter.
          The currencies are obtained from fixer.io, which is a 'Foreign exchange rates and currency conversion API' published by the European Central Bank as a JSON API.
@@ -32,7 +32,7 @@ class Coins
         puts help
     end
 
-    def args? this
+    def self.args? this
         if ARGV.include? this
           return true
         end
@@ -89,4 +89,12 @@ class Coins
           end
         end
       end
-      
+    
+    user_input = gets.chomp.downcase
+    case user_input
+    when user_input = "args"
+        Coins.args
+    when user_input = "help"
+        Coins.help
+    else
+    end
