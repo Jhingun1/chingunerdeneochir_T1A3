@@ -1,7 +1,7 @@
 # chingunerdeneochir_T1A3
 A simple hangman game built in the terminal in Ruby
 # The answers are retrieved from these 4 sets of strings :
-
+```
 def words
     [
       ["cricket", "A game played by gentlemen"],
@@ -11,6 +11,7 @@ def words
       ["exotic", "Not from around here..."],
     ]
   end
+  ```
 
 The answers and hints can be changed if you want.
 
