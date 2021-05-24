@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'bundler'
+Bundler.require
+
+require File.expand_path("../../lib/hangman", __FILE__)
+
+game = Hangman.new
+game.play!
