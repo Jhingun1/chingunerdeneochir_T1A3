@@ -8,13 +8,11 @@ Source:
 https://github.com/Jhingun1/chingunerdeneochir_T1A3
 ```
 
-# Purpose and Scope of Hangman
+# Describe at a high level what the application will do
 
-- describe at a high level what the application will do
+Hangman is a game in which the computer picks a random word and a player needs to guess it by suggesting letters, within an unlimited amount of guesses, but only 10 of them are allowed to be wrong.
 
-Hangman is a game in which the computer picks a random word between the strings and a player needs to guess it by suggesting letters, within a limited amount of guesses, through a hint.
-
-The word to guess is represented by a row of dashes, representing each letter of the word. If the player suggests a letter which occurs in the word, the computer writes it in all its correct positions. If the suggested letter or number does not occur in the word, the computer deducts one of the allowed incorrect guesses.
+The word to guess is represented by a row of dashes, representing each letter of the word. If the player suggests a letter which occurs in the word, the computer writes it in all its correct positions. If the suggested letter or number does not occur in the word, the computer deducts one of the 9 allowed incorrect guesses.
 
 The game may either draw one element of a hanged man stick figure as a tally mark at each incorrect guess, or show a number indicating the remaining allowed mistakes.
 
