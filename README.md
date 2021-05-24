@@ -8,83 +8,48 @@ Source:
 https://github.com/Jhingun1/chingunerdeneochir_T1A3
 ```
 
-# Describe at a high level what the application will do
+# Description
 
-Hangman is a game in which the computer picks a random word and a player needs to guess it by suggesting letters, within an unlimited amount of guesses, but only 10 of them are allowed to be wrong.
+Our goal is to create a Hangman game. This is a game in which the computer selects a random word and the player must guess it using letters suggested by the computer within a set number of guesses.
+# Purpose
 
-The word to guess is represented by a row of dashes, representing each letter of the word. If the player suggests a letter which occurs in the word, the computer writes it in all its correct positions. If the suggested letter or number does not occur in the word, the computer deducts one of the 9 allowed incorrect guesses.
+The aim of Hangman is to provide a fun way to learn new words and put your general knowledge to the test. This is accomplished by encouraging the user to guess the hidden word one letter at a time, which can be useful for remembering new word spelling.
+# Functionality
 
-The game may either draw one element of a hanged man stick figure as a tally mark at each incorrect guess, or show a number indicating the remaining allowed mistakes.
+- Start program
+- Program greets the user.
+- Program prompts user for input if they want to play
+  - If user enters "No", program exits
+  - If user enters "Yes, program continues
+- Prompts user for username, if nothing entered defaults to "Player"
+- Program randomly generates a word for user to guess
+- Prompts the user for input of a letter
+- Checks user input
+  - If correct, displays letter in secret word
+  - If incorrect, displays number of lives left
+- User input will loop until:
+  - All letters are matched in the secret word
+    - If true, then will display the secret word and victory screen
+  - There are 0 lives left
+    - If true, then will display the secret word and game over screen
+- Prompts user if they want to play again
+  - If user enters "No", program exits
+  - If user enters "Yes", program will return with new word for user to guess
 
-The player guessing the word may, at any time, attempt to guess the whole word. If the word is correct, the game is over and the player wins. Otherwise, the computer penalizes the player by deducting 1 off the remaining allowed incorrect guesses, optionally adding an element to the hanged man stick figure. If the allowed guesses reaches 0, the computer wins the game.
+  ### Instructions for Use
 
+1. Unzip the ruby_hangman folder from the zip file.
+2. Navigate to `/ruby_hangman/src/` in the command-line and type in `bundle install` and press Enter to install dependancies.
+3. While in the same directory, type `ruby index.rb` into the command-line and press Enter to start the program.
+4. Enter yes or no if you would like to play the game.
+5. If you enter yes, the program will ask you to enter a username.
+6. You will see a number of lines `_ _ _ _ _` that represent the number of letters in the word you have to guess.
+7. Guess what the word is by entering one letter at a time.
+8. Each correct letter will be revealed in the word.
+9. For each incorrect guess, you will lose a life. You only get 7 lives.
+10. Once you have finished the game, the program will prompt you for a yes or no if you would like to play again.
 
-- identify the problem it will solve and explain why you are developing it
-- identify the target audience
-- explain how a member of the target audience will use it
-
-
-
-# The answers are retrieved from these 4 sets of strings with hints :
-```
-def words
-    [
-      ["cricket", "A game played by gentlemen"],
-      ["jogging", "We are not walking..."],
-      ["celebrate", "Remembering special moments"],
-      ["continent", "There are 7 of these"],
-      ["exotic", "Not from around here..."],
-    ]
-  end
-  ```
-
-The answers and hints can be changed if you want.
-
-# Opening terminal app
-
-```
-cd /chingunerdeneochir_T1A3/src
-```
-
-and run command 
-
-```
-ruby hangman.rb
-```
-
-This will execute a new game which will prompt
-
-```New game started... your word is 7 characters long```
-
-To exit game at any point type 'exit'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Screenshots
 
 
 
