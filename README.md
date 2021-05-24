@@ -39,7 +39,7 @@ The aim of Hangman is to provide a fun way to learn new words and put your gener
   ### Instructions for Use
 
 1. Unzip the ruby_hangman folder from the zip file.
-2. Navigate to `/ruby_hangman/src/` in the command-line and type in `bundle install` and press Enter to install dependancies.
+2. Navigate to `/chingunerdeneochir_T1A3/src/` in the command-line and type in `bundle install` and press Enter to install dependancies.
 3. While in the same directory, type `ruby index.rb` into the command-line and press Enter to start the program.
 4. Enter yes or no if you would like to play the game.
 5. If you enter yes, the program will ask you to enter a username.
