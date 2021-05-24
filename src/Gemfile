@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/Jhingun1/chingunerdeneochir_T1A3" }
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
 
