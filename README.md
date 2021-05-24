@@ -72,6 +72,12 @@ To exit game at any point type 'exit'
 
 
  
- Source : https://www.youtube.com/watch?v=uBwGfswwRL4
+ Source : 
+ ```
+ https://www.youtube.com/watch?v=uBwGfswwRL4
+ ```
 
- Source : https://github.com/dbattersby/ruby-hangman
+ Source : 
+ ```
+ https://github.com/dbattersby/ruby-hangman
+ ```
