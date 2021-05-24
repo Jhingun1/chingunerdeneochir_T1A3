@@ -17,11 +17,15 @@ The answers and hints can be changed if you want.
 
 # Opening terminal app
 
-```cd /chingunerdeneochir_T1A3/src```
+```
+cd /chingunerdeneochir_T1A3/src
+```
 
 and run command 
 
-```ruby hangman.rb```
+```
+ruby hangman.rb
+```
 
 This will execute a new game which will prompt
 
