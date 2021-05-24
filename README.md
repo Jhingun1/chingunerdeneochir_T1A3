@@ -1,4 +1,4 @@
-# chingunerdeneochir_T1A3
+# ✨Chingunerdeneochir_T1A3
 
 A simple hangman game built in the terminal in Ruby
 
