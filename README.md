@@ -1,5 +1,13 @@
 # chingunerdeneochir_T1A3
+
 A simple hangman game built in the terminal in Ruby
+
+Source: 
+
+```
+https://github.com/Jhingun1/chingunerdeneochir_T1A3
+```
+
 # The answers are retrieved from these 4 sets of strings :
 ```
 def words
